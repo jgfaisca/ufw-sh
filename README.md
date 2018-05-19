@@ -1,5 +1,5 @@
 # ufw-sh
 ufw firewall scripts
 
-Official documentation on this subject
+Official documentation on ufw: 
 https://help.ubuntu.com/lts/serverguide/firewall.html
