@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 ##
-## DESCRIPTION: Add NAT port forwarding to linux ufw firewall
+## DESCRIPTION: Add NAT port forwarding to linux ufw firewall configuration
 ##
 ## USAGE:
 ## $ ./nat-port-forwarding-ufw.sh <network_interface> <port> <tcp/udp> <ip_address>
@@ -88,7 +88,7 @@ if [ "$ARGS" = "invalid" ]; then
     exit 2
 fi
 
-# Build port forward line
+# Create port forward line
 VAR="-A PREROUTING -i ${NETWORK_INTERFACE} -p ${PROTOCOL} --dport \
 ${PORT} -j DNAT --to-destination ${IP_ADDRESS}"
 
