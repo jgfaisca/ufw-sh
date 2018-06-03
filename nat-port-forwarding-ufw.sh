@@ -10,7 +10,7 @@
 ## $ sudo ./nat-port-forwarding-ufw.sh enp2s0f1 32768 tcp 10.107.73.39
 ##
 ##
-## AUTHOR: Jose G. Faisca Â
+## AUTHOR: Jose G. Faisca
 ## <jose.faisca@gmail.com>
 ##
 ## DATE: 2018.05.18
